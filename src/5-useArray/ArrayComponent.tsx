@@ -14,7 +14,7 @@ export default function ArrayComponent() {
       <button onClick={() => update(1, 9)}>Change second element to 9</button>
       <button onClick={() => remove(1)}>Remove second element</button>
       <button onClick={() => filter((n: number) => n < 3)}>
-        Keep numbers less than 3{" "}
+        Keep numbers less than 3
       </button>
       <button onClick={() => set([1, 2])}>Set to 1, 2</button>
       <button onClick={() => clear()}>Clear</button>
