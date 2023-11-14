@@ -8,10 +8,15 @@ import ArrayComponent from "./5-useArray/ArrayComponent";
 function App() {
   return (
     <div className="App">
-      {/* <ToggleComponent /> */}
-      {/* <TimeoutComponent /> */}
-      {/* <DebounceComponent /> */}
-      {/* <UpdateEffectComponent /> */}
+      Toggle Component
+      <ToggleComponent />
+      Timeout Component
+      <TimeoutComponent />
+      Debounce Component
+      <DebounceComponent />
+      Update Effect Component
+      <UpdateEffectComponent />
+      Array Component
       <ArrayComponent />
     </div>
   );
